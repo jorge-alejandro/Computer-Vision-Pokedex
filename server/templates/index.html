@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <link rel="stylesheet" href="../static/style.css">
+
+    <title>Pokedex</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <h1>Computer Vision Pokedex</h1>
+        </div>
+        <div class="row">
+            <p>This is a very simple classifer for the first generation of Pokemons</p>
+        </div>
+        <div class="row">
+            <p>Built with PyTorch/FastAI. Just upload an image of a pokemon from your computer and
+                it will be classified.
+            </p>
+
+        </div>
+        <form enctype="multipart/form-data" method="POST" name="fileinfo">
+            <div class="row">
+                <label>Upload your image:</label>
+                <input type="file" name="file" required />
+            </div>
+            <div id="pokedex">
+                <img src="../static/pokedex.png" alt="Pokedex" id="pokedeximg">
+                <input type="submit" value="Classify!" id="classify"/>
+                <img id="uploadedImg">
+                <div id="results"></div> 
+            </div>
+        </form>
+    </div>
+
+
+
+<img id="churros" src="../static/char.png">
+
+    <footer>
+        <p>
+            <a class="github-button" href="https://github.com/jorge-alejandro" data-show-count="true"
+                aria-label="Follow @jorge-alejandro on GitHub">Follow @Jorge-alejandro</a>
+
+            <a class="github-button" href="https://github.com/jorge-alejandro/Computer-Vision-Pokedex"
+                data-show-count="true" data-icon="octicon-star"
+                aria-label="Star jorge-alejandro/Computer-Vision-Pokedex on GitHub">Star</a>
+        </p>
+
+    </footer>
+
+    <script src="../static/main.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</body>
+
+</html>
