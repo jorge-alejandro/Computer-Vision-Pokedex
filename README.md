@@ -1,4 +1,4 @@
-# Churros Samosa Classifier
+# Computer Vision Pokedex
 
 ### Tools used
 
