@@ -13,7 +13,7 @@
     padding: 10px 0px 10px 0px;
 }
 
-#churros {
+#charmander {
     position: fixed;
     bottom: 0;
     width: 340px;
@@ -129,3 +129,72 @@ footer p {
     }
   }
   
+
+  @media only screen and (max-width: 400px) {
+    /* For mobile phones: */
+    body {
+        background-color:#ff1a55;
+        color: #ffffff;
+        font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+        font-size: 1.3em;
+        font-weight: 300;
+        letter-spacing: .01em;
+        line-height: 1.6;
+      }
+  
+  
+    #classify {
+        position: absolute;
+        bottom: -256px;
+        left: 83px;
+        color: black;
+        background-color: #f9ee60;
+        border-color: #f9ee60;
+        height: 40px;
+        width: 160px;
+    }
+
+    #uploadedImg {
+        position: absolute;
+        left: 36px;
+        bottom: -179px;
+        width: 269px;
+        height: 179px;
+        background-color: #ffff;
+        border-radius: 7px;
+    }
+    #results {
+        position: absolute;
+        bottom: -305px;
+        left: 36px;
+        color: black;
+        background-color: white;
+        border-color: white;
+        height: 54px;
+        width: 269px;
+        text-align: center;
+        line-height: 52px;
+        border-radius: 7px;
+    }
+
+    #pokedeximg {
+        display: none;
+    }    
+
+    #charmander {
+        display: none;
+     
+    }
+
+    footer p {
+        width: 100%;
+        text-align: center;
+        color: whitesmoke;
+        margin: 25px;
+        position: absolute;
+        bottom: -128px;
+        left: -33px;
+    }
+
+
+    }
