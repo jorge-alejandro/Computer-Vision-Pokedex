@@ -130,7 +130,7 @@ footer p {
   }
   
 
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 500px) {
     /* For mobile phones: */
     body {
         background-color:#ff1a55;
@@ -140,6 +140,7 @@ footer p {
         font-weight: 300;
         letter-spacing: .01em;
         line-height: 1.6;
+        background-image: url(mobile_bg.png);
       }
   
   
@@ -195,6 +196,20 @@ footer p {
         bottom: -128px;
         left: -33px;
     }
+
+    h1 {
+        font-size: 4.6rem;
+        line-height: 1.2;
+        position: absolute;
+        top: -126px;
+    }
+
+    .container {
+        margin-top: 27vh;
+    }
+
+
+
 
 
     }
